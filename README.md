@@ -9,4 +9,4 @@ python pingmesh.py
 
 访问http://127.0.0.1:9000
 
-![效果图]('https://github.com/Alpha0312/pingmesh-python.git/static/images/pingmesh.png')
+![效果图]('https://github.com/Alpha0312/pingmesh-python/tree/master/static/images/pingmesh.png')
