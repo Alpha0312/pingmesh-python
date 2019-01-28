@@ -17,7 +17,6 @@ def index():
         index = str(i)
         name = 'host'+index.rjust(2, '0')
         hosts_.append(name)
-    #start_thread()
     return render_template("index.html", **locals())
 
 
@@ -52,7 +51,6 @@ def popen_ping(i):
 
 
 if __name__ == '__main__':
-    print(password)
     start_thread()
-    app.run(host='0.0.0.0',port=9000)
+    app.run(host='0.0.0.0',port=8000)
 
